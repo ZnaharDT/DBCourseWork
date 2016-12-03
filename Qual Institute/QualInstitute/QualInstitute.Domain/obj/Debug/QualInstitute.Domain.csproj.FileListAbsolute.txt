@@ -1,0 +1,10 @@
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll.config
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.dll
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.xml
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.csprojResolveAssemblyReference.cache
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.pdb
