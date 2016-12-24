@@ -1,0 +1,12 @@
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\QualInstitute.ConsoleUI.exe.config
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\QualInstitute.ConsoleUI.exe
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\QualInstitute.ConsoleUI.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\EntityFramework.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\EntityFramework.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\obj\Debug\QualInstitute.ConsoleUI.csprojResolveAssemblyReference.cache
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\obj\Debug\QualInstitute.ConsoleUI.exe
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\obj\Debug\QualInstitute.ConsoleUI.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\EntityFramework.SqlServer.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.ConsoleUI\bin\Debug\EntityFramework.SqlServer.xml

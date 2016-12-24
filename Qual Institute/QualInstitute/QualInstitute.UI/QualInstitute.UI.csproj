@@ -108,12 +108,30 @@
     <Compile Include="Autorisation.Designer.cs">
       <DependentUpon>Autorisation.cs</DependentUpon>
     </Compile>
+    <Compile Include="GroupPrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupPrintForm.Designer.cs">
+      <DependentUpon>GroupPrintForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GroupStudentsShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GroupStudentsShow.Designer.cs">
+      <DependentUpon>GroupStudentsShow.cs</DependentUpon>
+    </Compile>
     <Compile Include="InstituteDB.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarksPrintForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MarksPrintForm.Designer.cs">
+      <DependentUpon>MarksPrintForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -144,8 +162,17 @@
     <EmbeddedResource Include="Autorisation.resx">
       <DependentUpon>Autorisation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GroupPrintForm.resx">
+      <DependentUpon>GroupPrintForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GroupStudentsShow.resx">
+      <DependentUpon>GroupStudentsShow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MarksPrintForm.resx">
+      <DependentUpon>MarksPrintForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

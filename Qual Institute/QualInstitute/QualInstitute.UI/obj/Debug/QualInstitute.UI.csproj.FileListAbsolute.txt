@@ -23,3 +23,30 @@ E:\KPI3\DB\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.exe
 E:\KPI3\DB\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.pdb
 E:\KPI3\DB\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.SqlServer.dll
 E:\KPI3\DB\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.SqlServer.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\QualInstitute.exe.config
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.exe
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\QualInstitute.exe
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\QualInstitute.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.SqlServer.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\bin\Debug\EntityFramework.SqlServer.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.csprojResolveAssemblyReference.cache
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddGroup.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddMarks.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddShedule.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddSpeciality.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddStudent.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddStudyPlan.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddSubject.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.AddTeacher.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.Autorisation.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.MainForm.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.Properties.Resources.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.UI.csproj.GenerateResource.Cache
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.GroupPrintForm.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.MarksPrintForm.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.UI\obj\Debug\QualInstitute.GroupStudentsShow.resources

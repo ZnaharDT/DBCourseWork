@@ -10,6 +10,6 @@ namespace QualInstitute.UI
 {
     public static class InstituteDB
     {
-        public static IDBRepository Repository = new EFDbRepository();
+        public static EFDbContext Repository = new EFDbContext();
     }
 }

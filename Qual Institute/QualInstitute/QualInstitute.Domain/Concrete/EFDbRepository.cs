@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using QualInstitute.Domain.Abstract;
+using QualInstitute.Domain.Entities;
 
 namespace QualInstitute.Domain.Concrete
 {
@@ -18,5 +19,13 @@ namespace QualInstitute.Domain.Concrete
         public IQueryable<ScheduleItem> Schedule => context.Schedule;
         public IQueryable<Teacher> Teachers => context.Teachers;
         public IQueryable<Mark> Marks => context.Marks;
+        public IQueryable<LessonPayment> Payments => context.Payments;
+        public IQueryable<TeacherMonthWork> MonthReport => context.MonthReport;
+        public IQueryable<StudyingPlanItem> StudyingPlan => context.StudyingPlan;
+
+        public void SaveChanges()
+        {
+            context.SaveChanges();
+        }
     }
 }

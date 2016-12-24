@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using QualInstitute.Domain.Entities;
 
 namespace QualInstitute.Domain.Abstract
 {
@@ -15,6 +16,11 @@ namespace QualInstitute.Domain.Abstract
         IQueryable<ScheduleItem> Schedule { get; }
         IQueryable<Teacher> Teachers { get; }
         IQueryable<Mark> Marks { get; }
+        IQueryable<LessonPayment> Payments { get; }
+        IQueryable<TeacherMonthWork> MonthReport { get; }
+        IQueryable<StudyingPlanItem> StudyingPlan { get; }
+
+        void SaveChanges();
 
     }
 }

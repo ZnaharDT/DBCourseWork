@@ -16,8 +16,8 @@ namespace QualInstitute.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Autorisation());
-            Application.Run(new MainForm());
+            Application.Run(new Autorisation());
+            //Application.Run(new MainForm());
         }
     }
 }

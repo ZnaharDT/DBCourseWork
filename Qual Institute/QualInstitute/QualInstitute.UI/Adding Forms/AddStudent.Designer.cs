@@ -33,13 +33,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.comboBoxGroup = new System.Windows.Forms.ComboBox();
-            this.comboBoxOrganization = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.buttonAddSud = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.textBoxSecName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBoxOrganisation = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBoxSurname
@@ -82,14 +82,6 @@
             this.comboBoxGroup.Size = new System.Drawing.Size(134, 21);
             this.comboBoxGroup.TabIndex = 35;
             // 
-            // comboBoxOrganization
-            // 
-            this.comboBoxOrganization.FormattingEnabled = true;
-            this.comboBoxOrganization.Location = new System.Drawing.Point(98, 85);
-            this.comboBoxOrganization.Name = "comboBoxOrganization";
-            this.comboBoxOrganization.Size = new System.Drawing.Size(134, 21);
-            this.comboBoxOrganization.TabIndex = 34;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -116,6 +108,7 @@
             this.buttonAddSud.TabIndex = 30;
             this.buttonAddSud.Text = "Додати";
             this.buttonAddSud.UseVisualStyleBackColor = true;
+            this.buttonAddSud.Click += new System.EventHandler(this.buttonAddSud_Click);
             // 
             // buttonClear
             // 
@@ -125,6 +118,7 @@
             this.buttonClear.TabIndex = 31;
             this.buttonClear.Text = "Очистити";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
             // 
             // textBoxSecName
             // 
@@ -142,11 +136,19 @@
             this.label5.TabIndex = 36;
             this.label5.Text = "По-батькові";
             // 
+            // textBoxOrganisation
+            // 
+            this.textBoxOrganisation.Location = new System.Drawing.Point(97, 85);
+            this.textBoxOrganisation.Name = "textBoxOrganisation";
+            this.textBoxOrganisation.Size = new System.Drawing.Size(134, 20);
+            this.textBoxOrganisation.TabIndex = 40;
+            // 
             // AddStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 175);
+            this.Controls.Add(this.textBoxOrganisation);
             this.Controls.Add(this.textBoxSecName);
             this.Controls.Add(this.textBoxSurname);
             this.Controls.Add(this.textBoxName);
@@ -154,7 +156,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.comboBoxGroup);
-            this.Controls.Add(this.comboBoxOrganization);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonAddSud);
@@ -174,12 +175,12 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBoxGroup;
-        private System.Windows.Forms.ComboBox comboBoxOrganization;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button buttonAddSud;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.TextBox textBoxSecName;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBoxOrganisation;
     }
 }

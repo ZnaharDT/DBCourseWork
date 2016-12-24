@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8CDC7ABC-6A31-46DE-849F-226B6858AA0B}</ProjectGuid>
+    <ProjectGuid>{8C459DEF-56AE-4AEA-9CC2-E91636D65B12}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>QualInstitute.Domain</RootNamespace>
@@ -52,19 +52,82 @@
     <Compile Include="Abstract\IDBRepository.cs" />
     <Compile Include="Concrete\EFDbContext.cs" />
     <Compile Include="Concrete\EFDbRepository.cs" />
-    <Compile Include="Days.cs" />
-    <Compile Include="Group.cs" />
-    <Compile Include="Mark.cs" />
-    <Compile Include="ScheduleItem.cs" />
-    <Compile Include="Speciality.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Subject.cs" />
+    <Compile Include="Entities\Days.cs" />
+    <Compile Include="Entities\Group.cs" />
+    <Compile Include="Entities\LessonPayment.cs" />
+    <Compile Include="Entities\Mark.cs" />
+    <Compile Include="Entities\ScheduleItem.cs" />
+    <Compile Include="Entities\Speciality.cs" />
+    <Compile Include="Entities\Student.cs" />
+    <Compile Include="Entities\StudyingPlanItem.cs" />
+    <Compile Include="Entities\Subject.cs" />
+    <Compile Include="Entities\Teacher.cs" />
+    <Compile Include="Entities\TeacherMonthWork.cs" />
+    <Compile Include="Entities\User.cs" />
+    <Compile Include="Migrations\201612071808052_InitialCreate.cs" />
+    <Compile Include="Migrations\201612071808052_InitialCreate.Designer.cs">
+      <DependentUpon>201612071808052_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612081509403_AddDays.cs" />
+    <Compile Include="Migrations\201612081509403_AddDays.Designer.cs">
+      <DependentUpon>201612081509403_AddDays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612100914116_AddStudyingPlan.cs" />
+    <Compile Include="Migrations\201612100914116_AddStudyingPlan.Designer.cs">
+      <DependentUpon>201612100914116_AddStudyingPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612101220271_AddSalaryPayment.cs" />
+    <Compile Include="Migrations\201612101220271_AddSalaryPayment.Designer.cs">
+      <DependentUpon>201612101220271_AddSalaryPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612101235497_AddSalaryPayment2.cs" />
+    <Compile Include="Migrations\201612101235497_AddSalaryPayment2.Designer.cs">
+      <DependentUpon>201612101235497_AddSalaryPayment2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612101238114_DropSalaryColumn.cs" />
+    <Compile Include="Migrations\201612101238114_DropSalaryColumn.Designer.cs">
+      <DependentUpon>201612101238114_DropSalaryColumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612101319127_AddedMonthWork.cs" />
+    <Compile Include="Migrations\201612101319127_AddedMonthWork.Designer.cs">
+      <DependentUpon>201612101319127_AddedMonthWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201612210013328_AddUsers.cs" />
+    <Compile Include="Migrations\201612210013328_AddUsers.Designer.cs">
+      <DependentUpon>201612210013328_AddUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Teacher.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612071808052_InitialCreate.resx">
+      <DependentUpon>201612071808052_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612081509403_AddDays.resx">
+      <DependentUpon>201612081509403_AddDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612100914116_AddStudyingPlan.resx">
+      <DependentUpon>201612100914116_AddStudyingPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612101220271_AddSalaryPayment.resx">
+      <DependentUpon>201612101220271_AddSalaryPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612101235497_AddSalaryPayment2.resx">
+      <DependentUpon>201612101235497_AddSalaryPayment2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612101238114_DropSalaryColumn.resx">
+      <DependentUpon>201612101238114_DropSalaryColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612101319127_AddedMonthWork.resx">
+      <DependentUpon>201612101319127_AddedMonthWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201612210013328_AddUsers.resx">
+      <DependentUpon>201612210013328_AddUsers.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

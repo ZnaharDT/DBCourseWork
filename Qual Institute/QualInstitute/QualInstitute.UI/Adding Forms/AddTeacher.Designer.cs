@@ -28,24 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label3 = new System.Windows.Forms.Label();
             this.textBoxSurname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonAddTeacher = new System.Windows.Forms.Button();
             this.buttonClear = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBoxQual = new System.Windows.Forms.ComboBox();
+            this.checkBoxQual = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 80);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Кваліфікація";
             // 
             // textBoxSurname
             // 
@@ -71,6 +61,7 @@
             this.buttonAddTeacher.TabIndex = 11;
             this.buttonAddTeacher.Text = "Додати";
             this.buttonAddTeacher.UseVisualStyleBackColor = true;
+            this.buttonAddTeacher.Click += new System.EventHandler(this.buttonAddTeacher_Click);
             // 
             // buttonClear
             // 
@@ -97,21 +88,22 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Ім\'я";
             // 
-            // comboBoxQual
+            // checkBoxQual
             // 
-            this.comboBoxQual.FormattingEnabled = true;
-            this.comboBoxQual.Location = new System.Drawing.Point(106, 77);
-            this.comboBoxQual.Name = "comboBoxQual";
-            this.comboBoxQual.Size = new System.Drawing.Size(126, 21);
-            this.comboBoxQual.TabIndex = 24;
+            this.checkBoxQual.AutoSize = true;
+            this.checkBoxQual.Location = new System.Drawing.Point(105, 80);
+            this.checkBoxQual.Name = "checkBoxQual";
+            this.checkBoxQual.Size = new System.Drawing.Size(64, 17);
+            this.checkBoxQual.TabIndex = 16;
+            this.checkBoxQual.Text = "Доцент";
+            this.checkBoxQual.UseVisualStyleBackColor = true;
             // 
             // AddTeacher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(244, 175);
-            this.Controls.Add(this.comboBoxQual);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.checkBoxQual);
             this.Controls.Add(this.textBoxSurname);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonAddTeacher);
@@ -127,14 +119,12 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBoxSurname;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button buttonAddTeacher;
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBoxQual;
+        private System.Windows.Forms.CheckBox checkBoxQual;
     }
 }

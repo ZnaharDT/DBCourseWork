@@ -1,10 +1,19 @@
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll.config
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.pdb
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.dll
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.dll
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.xml
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.xml
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.csprojResolveAssemblyReference.cache
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.dll
-E:\KPI3\DB\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll.config
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\bin\Debug\EntityFramework.SqlServer.xml
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.csprojResolveAssemblyReference.cache
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.dll
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.pdb
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.InitialCreate.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.csproj.GenerateResource.Cache
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddDays.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddStudyingPlan.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddSalaryPayment.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddSalaryPayment2.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.DropSalaryColumn.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddedMonthWork.resources
+E:\KPI3\DB\QualInstitute Final\QualInstitute\QualInstitute.Domain\obj\Debug\QualInstitute.Domain.Migrations.AddUsers.resources

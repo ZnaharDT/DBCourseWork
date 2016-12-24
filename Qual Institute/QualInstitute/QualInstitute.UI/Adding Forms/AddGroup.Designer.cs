@@ -77,6 +77,7 @@
             this.buttonAddGroup.TabIndex = 30;
             this.buttonAddGroup.Text = "Додати";
             this.buttonAddGroup.UseVisualStyleBackColor = true;
+            this.buttonAddGroup.Click += new System.EventHandler(this.buttonAddGroup_Click);
             // 
             // buttonClear
             // 

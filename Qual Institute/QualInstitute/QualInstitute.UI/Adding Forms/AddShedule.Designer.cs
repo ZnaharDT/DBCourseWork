@@ -34,12 +34,14 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBoxTime = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.comboBoxTeacher = new System.Windows.Forms.ComboBox();
             this.comboBoxSubject = new System.Windows.Forms.ComboBox();
             this.comboBoxGroup = new System.Windows.Forms.ComboBox();
             this.comboBoxDay = new System.Windows.Forms.ComboBox();
+            this.comboBoxHour = new System.Windows.Forms.ComboBox();
+            this.comboBoxMinute = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label3
@@ -68,6 +70,7 @@
             this.buttonAddShed.TabIndex = 11;
             this.buttonAddShed.Text = "Додати";
             this.buttonAddShed.UseVisualStyleBackColor = true;
+            this.buttonAddShed.Click += new System.EventHandler(this.buttonAddShed_Click);
             // 
             // buttonClear
             // 
@@ -95,13 +98,6 @@
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 17;
             this.label4.Text = "День";
-            // 
-            // textBoxTime
-            // 
-            this.textBoxTime.Location = new System.Drawing.Point(127, 121);
-            this.textBoxTime.Name = "textBoxTime";
-            this.textBoxTime.Size = new System.Drawing.Size(100, 20);
-            this.textBoxTime.TabIndex = 20;
             // 
             // label5
             // 
@@ -144,16 +140,43 @@
             this.comboBoxDay.Size = new System.Drawing.Size(148, 21);
             this.comboBoxDay.TabIndex = 24;
             // 
+            // comboBoxHour
+            // 
+            this.comboBoxHour.FormattingEnabled = true;
+            this.comboBoxHour.Location = new System.Drawing.Point(94, 121);
+            this.comboBoxHour.Name = "comboBoxHour";
+            this.comboBoxHour.Size = new System.Drawing.Size(45, 21);
+            this.comboBoxHour.TabIndex = 25;
+            // 
+            // comboBoxMinute
+            // 
+            this.comboBoxMinute.FormattingEnabled = true;
+            this.comboBoxMinute.Location = new System.Drawing.Point(152, 121);
+            this.comboBoxMinute.Name = "comboBoxMinute";
+            this.comboBoxMinute.Size = new System.Drawing.Size(45, 21);
+            this.comboBoxMinute.TabIndex = 26;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(141, 124);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(10, 13);
+            this.label6.TabIndex = 27;
+            this.label6.Text = ":";
+            // 
             // AddShedule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(242, 173);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.comboBoxMinute);
+            this.Controls.Add(this.comboBoxHour);
             this.Controls.Add(this.comboBoxDay);
             this.Controls.Add(this.comboBoxGroup);
             this.Controls.Add(this.comboBoxSubject);
             this.Controls.Add(this.comboBoxTeacher);
-            this.Controls.Add(this.textBoxTime);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -177,11 +200,13 @@
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBoxTime;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBoxTeacher;
         private System.Windows.Forms.ComboBox comboBoxSubject;
         private System.Windows.Forms.ComboBox comboBoxGroup;
         private System.Windows.Forms.ComboBox comboBoxDay;
+        private System.Windows.Forms.ComboBox comboBoxHour;
+        private System.Windows.Forms.ComboBox comboBoxMinute;
+        private System.Windows.Forms.Label label6;
     }
 }

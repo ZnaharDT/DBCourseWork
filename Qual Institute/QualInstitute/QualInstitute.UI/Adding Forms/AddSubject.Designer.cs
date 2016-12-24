@@ -32,6 +32,10 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBoxLectHours = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBoxPracticeHours = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonAddSubject
@@ -42,6 +46,7 @@
             this.buttonAddSubject.TabIndex = 11;
             this.buttonAddSubject.Text = "Додати";
             this.buttonAddSubject.UseVisualStyleBackColor = true;
+            this.buttonAddSubject.Click += new System.EventHandler(this.buttonAddSubject_Click);
             // 
             // buttonClear
             // 
@@ -68,11 +73,47 @@
             this.label1.TabIndex = 9;
             this.label1.Text = "Назва предмету";
             // 
+            // textBoxLectHours
+            // 
+            this.textBoxLectHours.Location = new System.Drawing.Point(129, 45);
+            this.textBoxLectHours.Name = "textBoxLectHours";
+            this.textBoxLectHours.Size = new System.Drawing.Size(100, 20);
+            this.textBoxLectHours.TabIndex = 14;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 48);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.TabIndex = 13;
+            this.label2.Text = "Лекц. годин";
+            // 
+            // textBoxPracticeHours
+            // 
+            this.textBoxPracticeHours.Location = new System.Drawing.Point(129, 71);
+            this.textBoxPracticeHours.Name = "textBoxPracticeHours";
+            this.textBoxPracticeHours.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPracticeHours.TabIndex = 16;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 74);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(73, 13);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Практ. годин";
+            // 
             // AddSubject
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(244, 175);
+            this.ClientSize = new System.Drawing.Size(244, 162);
+            this.Controls.Add(this.textBoxPracticeHours);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.textBoxLectHours);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonAddSubject);
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.textBoxName);
@@ -91,5 +132,9 @@
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBoxLectHours;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBoxPracticeHours;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -114,6 +114,7 @@
             this.buttonAddSpec.TabIndex = 2;
             this.buttonAddSpec.Text = "Додати";
             this.buttonAddSpec.UseVisualStyleBackColor = true;
+            this.buttonAddSpec.Click += new System.EventHandler(this.buttonAddSpec_Click);
             // 
             // AddSpeciality
             // 
